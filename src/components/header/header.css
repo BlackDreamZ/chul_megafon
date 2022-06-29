@@ -127,6 +127,12 @@
           justify-content: space-between;
 }
 
+@media (max-width: 999px) {
+  .megafon__header-bottom {
+    display: none;
+  }
+}
+
 .megafon__header-bottom-left ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,7 +173,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 40px;
+  gap: 14px;
+}
+
+.megafon__header-bottom-right hr {
+  height: 56px;
+  width: 1px;
+  margin: 0;
+  border: 0;
+  background: #d8d8d8;
 }
 
 .megafon__header-bottom-right a {

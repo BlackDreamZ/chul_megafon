@@ -91,7 +91,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-
+        @media (max-width: 999px) {
+            display: none;
+        }
         &-left ul {
             display: flex;
             list-style: none;
@@ -121,8 +123,14 @@
         &-right {
             display: flex;
             align-items: center;
-            gap: 40px;
-
+            gap: 14px;
+            hr {
+                height: 56px;
+                width: 1px;
+                margin: 0;
+                border: 0;
+                background: #d8d8d8;
+            }
             a {
                 text-decoration: none;
             }

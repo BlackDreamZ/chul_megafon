@@ -1,13 +1,22 @@
 .main {
     background-color: #00b956;
-    min-height: 100vh;
     .container {
         max-width: 1200px;
         margin: 0 auto;
         display: grid;
-        grid-template-rows: 1fr 2fr 3fr;
+        grid-template-rows: 1fr 2fr 3fr 1fr;
         grid-template-columns: 1fr 4fr 0.5fr 3fr 0.8fr;
-
+        @media (max-width: 999px) {
+            grid-template-rows: 0.1fr 0.4fr 0.1fr 0.8fr 0.4fr;
+            grid-template-columns: 0.3fr 3fr 0.5fr 2fr 0.3fr;
+        }
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 80%;
+            gap: 32px;
+        }
         &__title {
             display: flex;
             flex-direction: column;
@@ -15,6 +24,10 @@
             gap: 16px;
             grid-row: 2 / 3;
             grid-column: 2 / 3;
+            @media (max-width: 999px) {
+                grid-row: 2 / 3;
+                grid-column: 2 / 4;
+            }
             h2 {
                 font-weight: 700;
                 font-size: 52px;
@@ -31,9 +44,21 @@
                 margin: 0;
             }
         }
-        img {
+        &__gifts {
             grid-row: 3 / 4;
             grid-column: 2 / 3;
+            @media (max-width: 999px) {
+                display: none;
+            }
+        }
+        &__one-gift {
+            display: none;
+            @media (max-width: 999px) {
+                display: block;
+                grid-row: 4 / 5;
+                grid-column: 4 / 5;
+                margin: auto;
+            }
         }
         &__form {
             grid-row: 2 / 4;
@@ -47,6 +72,10 @@
             gap: 24px;
             text-align: left;
             align-items: flex-start;
+            @media (max-width: 999px) {
+                grid-row: 4 / 5;
+                grid-column: 2 / 3;
+            }
             &-field {
                 display: flex;
                 flex-direction: column;
