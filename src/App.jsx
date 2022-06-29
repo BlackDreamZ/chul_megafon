@@ -6,9 +6,9 @@ import Footer from './components/footer/footer';
 function App() {
   return (
     <div className="megafon-application">
-      {Header()}
-      {Main()}
-      {Footer()}
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
