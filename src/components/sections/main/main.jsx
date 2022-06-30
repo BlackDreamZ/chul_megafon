@@ -1,8 +1,8 @@
-import "./main.css";
-import gifts from '../../img/gifts.png';
-import one_gift from '../../img/one_gift.png';
+import "./Main.scss";
+import gifts from '../../../img/gifts.png';
+import one_gift from '../../../img/one_gift.png';
 
-const main = () => {
+const Main = () => {
     return (
         <section className='main'>
             <div className="container">
@@ -29,4 +29,4 @@ const main = () => {
     );
 }
 
-export default main;
+export default Main;

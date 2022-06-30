@@ -14,8 +14,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            align-content: center;
             max-width: 80%;
             gap: 32px;
+            padding: 40px 0;
         }
         &__title {
             display: flex;
@@ -58,6 +60,9 @@
                 grid-row: 4 / 5;
                 grid-column: 4 / 5;
                 margin: auto;
+                width: 216px;
+                height: 239px;
+                order: 3;
             }
         }
         &__form {
@@ -75,6 +80,7 @@
             @media (max-width: 999px) {
                 grid-row: 4 / 5;
                 grid-column: 2 / 3;
+                padding: 24px;
             }
             &-field {
                 display: flex;

@@ -1,8 +1,8 @@
-import './footer.css';
-import letter from '../../icons/icon_message.svg';
-import six from '../../icons/icon_six_years.svg';
+import './Footer.scss';
+import letter from '../../../icons/icon_message.svg';
+import six from '../../../icons/icon_six_years.svg';
 
-const footer = () => {
+const Footer = () => {
     return (
         <footer>
             <div className="footer__container container">
@@ -101,4 +101,4 @@ const footer = () => {
     );
 }
 
-export default footer;
+export default Footer;

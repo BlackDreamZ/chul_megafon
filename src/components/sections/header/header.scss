@@ -17,7 +17,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
+
         border-bottom: 1px solid #d8d8d8;
         &-left {
             display: flex;
@@ -74,7 +74,7 @@
                 height: 20px;
                 right: -20px;
                 top: 8px;
-                background: url("../../icons/triangle.svg") center 0 no-repeat;
+                background: url("../../../icons/triangle.svg") center 0 no-repeat;
             }
             .location::before {
                 content: "";
@@ -83,7 +83,7 @@
                 height: 20px;
                 right: -20px;
                 top: 5px;
-                background: url("../../icons/location.svg") center 0 no-repeat;
+                background: url("../../../icons/location.svg") center 0 no-repeat;
             }
         }
     }
@@ -117,7 +117,7 @@
                 height: 20px;
                 right: -20px;
                 top: 8px;
-                background: url("../../icons/triangle.svg") center 0 no-repeat;
+                background: url("../../../icons/triangle.svg") center 0 no-repeat;
             }
         }
         &-right {
@@ -160,7 +160,7 @@
                     height: 20px;
                     right: -20px;
                     top: 10px;
-                    background: url("../../icons/triangle.svg") center 0 no-repeat;
+                    background: url("../../../icons/triangle.svg") center 0 no-repeat;
                 }
             }
         }

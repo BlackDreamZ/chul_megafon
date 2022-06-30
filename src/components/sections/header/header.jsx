@@ -1,9 +1,9 @@
-import "./header.css";
-import logo from "../../icons/megafon_logo.svg";
-import magnifier from "../../icons/magnifier.svg";
-import key from "../../icons/key.svg";
+import "./Header.scss";
+import logo from "../../../icons/megafon_logo.svg";
+import magnifier from "../../../icons/magnifier.svg";
+import key from "../../../icons/key.svg";
 
-const header = () => {
+const Header = () => {
     return (
         <header className="megafon__header">
             <div className="megafon__header-top">
@@ -47,4 +47,4 @@ const header = () => {
     );
 }
 
-export default header;
+export default Header;
