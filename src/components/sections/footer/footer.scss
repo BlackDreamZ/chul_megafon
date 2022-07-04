@@ -3,15 +3,26 @@ footer {
         padding: 40px 40px 24px;
         margin: 0 auto;
         max-width: 1200px;
+        overflow: hidden;
+        @media (max-width: 999px) {
+            padding: 40px 16px 24px;
+            .mobile-hidden {
+                display: none;
+            }
+        }
         &-top {
             display: flex;
             justify-content: space-between;
             padding-bottom: 24px;
+            @media (max-width: 999px) {
+                flex-direction: column;
+            }
             nav {
                 display: flex;
                 gap: 80px;
                 @media (max-width: 999px) {
                     gap: 40px;
+                    flex-direction: column;
                 }
                 ul {
                     display: flex;
@@ -44,15 +55,15 @@ footer {
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 20px;
-                @media (max-width: 999px) {
-                    display: none;
-                }
                 h6 {
                     font-weight: 500;
                     font-size: 15px;
                     line-height: 24px;
                     color: #333333;
                     margin: 0;
+                    @media (max-width: 999px) {
+                        display: none;
+                    }
                 }
                 .icons__media {
                     display: flex !important;
@@ -83,7 +94,12 @@ footer {
             font-size: 12px;
             line-height: 16px;
             color: #333333;
-
+            @media (max-width: 768px) {
+                flex-direction: column;
+                &-left {
+                    order: 2;
+                }
+            }
             &-left {
                 max-width: 550px;
             }

@@ -2,18 +2,31 @@ import "./Header.scss";
 import logo from "../../../icons/megafon_logo.svg";
 import magnifier from "../../../icons/magnifier.svg";
 import key from "../../../icons/key.svg";
+import navbar from "../../../img/navbar.png";
 
 const Header = () => {
     return (
         <header className="megafon__header">
+            <script defer>(function() {
+                window.onload = () => {
+                    let header__burger = document.querySelector('.open__navbar');
+                    let header__menu = document.querySelector('.navbar');
+                    let body = document.querySelector('body');
+                    header__burger.addEventListener('click', (e) => {
+                        header__menu.classList.toggle('active');
+                        body.classList.toggle('lock');
+                    })
+                }
+            })();</script>
             <div className="megafon__header-top">
                 <div className="megafon__header-top-left">
                     <a href="1"><img src={logo} alt='Megafon' /></a>
-                    <nav>
+                    <nav className='navbar'>
                         <ul className="navbar-first">
-                            <li><a href="2">Бизнес-портал</a></li>
-                            <li><a href="3">Инфобизнес</a></li>
-                            <li><a href="4">Интернет-магазин</a></li>
+                            <li><a className='desktop' href="2">Бизнес-портал</a></li>
+                            <li><a className='desktop' href="3">Инфобизнес</a></li>
+                            <li><a className='desktop' href="4">Интернет-магазин</a></li>
+                            <li className='toggle'>Все сервисы</li>
                         </ul>
                     </nav>
                 </div>
@@ -22,6 +35,14 @@ const Header = () => {
                         <li><a className='toggle' href="5">Бизнесу</a></li>
                         <li><a className='location' href="6">Москва и область</a></li>
                     </ul>
+                </div>
+                <div className="megafon__header-mobile">
+                    <img src={magnifier} alt='magnifier' />
+                    <div className="lk-and-navbar">
+                        <img src={key} alt='key' />
+                        <img className="open__navbar" src={navbar} alt='navbar' />
+                    </div>
+
                 </div>
             </div>
             <div className="megafon__header-bottom">

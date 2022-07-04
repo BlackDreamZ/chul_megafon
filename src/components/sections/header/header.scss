@@ -4,24 +4,24 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
-    position: relative;
-    /*padding: 20px 40px;
-    @media (max-width: 1279px) {
-        padding: 16px 24px;
+    z-index: 100;
+    @media (max-width: 999px) {
+        padding: 16px 40px;
     }
     @media (max-width: 767px) {
         padding: 16px;
-    }*/
+    }
 
     &-top {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
         border-bottom: 1px solid #d8d8d8;
+
         &-left {
             display: flex;
             align-items: center;
+
             .navbar-first {
                 display: flex;
                 justify-content: center;
@@ -43,8 +43,78 @@
                     color: #333333;
                 }
             }
+            @media (max-width: 999px) {
+                .navbar-first {
+                    padding-inline-start: 0px;
+                }
+                .navbar-first .desktop {
+                    display: none;
+                }
+            }
+            @media (max-width: 768px) {
+                .navbar-first .toggle {
+                    display: none;
+                }
+            }
+            @media (max-width: 999px) {
+                .active {
+                    background-color: #00b956;
+                    width: 100vw;
+                    height: calc(100vh - 64px);
+                    z-index: 10;
+                    position: absolute;
+                    top: 64px;
+                    left: 0;
+                    color: white;
+                    transition: all 0.3s ease 0s;
+                    .navbar-first {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        width: 100vw;
+                        height: calc(100vh - 64px);
+                        z-index: 10;
+                        opacity: 1;
+                        li {
+                            z-index: 20;
+                            height: 10vh;
+                            display: block;
+                            color: white;
+                            font-size: 40px;
+                            .desktop {
+                                z-index: 30;
+                                display: block;
+                                color: rgba($color: #ffffff, $alpha: 1);
+                                text-decoration: underline;
+                            }
+                            @media (max-width: 400px) {
+                                font-size: 28px;
+                            }
+                        }
+                    }
+                }
+            }
+            .toggle {
+                display: none;
+                position: relative;
+                @media (max-width: 999px) {
+                    display: block;
+                }
+            }
+            .toggle::before {
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                right: -20px;
+                top: 8px;
+                background: url("../../../icons/triangle.svg") center 0 no-repeat;
+            }
         }
         &-right {
+            @media (max-width: 999px) {
+                display: none;
+            }
             ul {
                 display: flex;
                 gap: 36px;
@@ -162,6 +232,28 @@
                     top: 10px;
                     background: url("../../../icons/triangle.svg") center 0 no-repeat;
                 }
+            }
+        }
+    }
+    &-mobile {
+        display: none;
+        @media (max-width: 999px) {
+            display: flex;
+            align-items: center;
+            gap: 26px;
+
+            .lk-and-navbar {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                a img {
+                    margin-top: 5px;
+                }
+            }
+        }
+        @media (max-width: 340px) {
+            & > img {
+                display: none;
             }
         }
     }

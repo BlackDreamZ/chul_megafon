@@ -1,6 +1,8 @@
 import './Footer.scss';
 import letter from '../../../icons/icon_message.svg';
 import six from '../../../icons/icon_six_years.svg';
+import Dropdown from '../../dropdown/Dropdown.jsx';
+
 
 const Footer = () => {
     return (
@@ -8,21 +10,9 @@ const Footer = () => {
             <div className="footer__container container">
                 <div className='footer__container-top'>
                     <nav>
-                        <ul>Компания
-                            <li><a href="12">О компании</a></li>
-                            <li><a href="13">Новости</a></li>
-                            <li><a href="14">Работа в МегаФоне</a></li>
-                            <li><a href="15">Условия оказания услуг</a></li>
-                        </ul>
-                        <ul>Организациям
-                            <li><a href="16">Инвесторам</a></li>
-                            <li><a href="17">Партнерам</a></li>
-                            <li><a href="18">Прессе</a></li>
-                            <li><a href="19">Лицензии</a></li>
-                        </ul>
-                        <ul>Интересное
-                            <li><a href="20">Корпоративные дайджесты</a></li>
-                        </ul>
+                        <Dropdown text={'Компания'} items={['О компании', 'Новости', 'Работа в МегаФоне', 'Условия оказания услуг']} />
+                        <Dropdown text={'Организациям'} items={['Инвесторам', 'Партнёрам', 'Прессе', 'Лицензии']} />
+                        <Dropdown text={'Интересное'} items={['Корпоративные дайджесты']} />
                     </nav>
                     <div className='footer__top-right'>
                         <h6>МегаФон в соцсетях</h6>
@@ -88,7 +78,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr></hr>
+                <hr className='mobile-hidden'></hr>
                 <div className='footer__container-bottom'>
                     <p className='footer__container-bottom-left'>Продолжая использовать наш сайт, вы даете согласие на обработку файлов Cookies и других пользовательских данных, в соответствии с <a href='21'>Политикой конфиденциальности</a>.</p>
                     <div className='footer__container-bottom-right'>

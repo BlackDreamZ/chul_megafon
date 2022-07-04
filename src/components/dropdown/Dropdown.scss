@@ -1,0 +1,27 @@
+.Dropdown {
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        list-style: none;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        color: #333333;
+        text-align: left;
+        padding-inline-start: 0px;
+    }
+    ul li a {
+        font-size: 15px;
+        line-height: 24px;
+        text-decoration: none;
+        color: #333333;
+
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+    ul li a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+}
