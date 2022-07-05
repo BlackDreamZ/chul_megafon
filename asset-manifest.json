@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chul_megafon/static/css/main.64e5cef8.css",
-    "main.js": "/chul_megafon/static/js/main.b5cb0c88.js",
+    "main.css": "/chul_megafon/static/css/main.f16d5830.css",
+    "main.js": "/chul_megafon/static/js/main.d97e7e03.js",
     "static/js/988.6f60c2b6.chunk.js": "/chul_megafon/static/js/988.6f60c2b6.chunk.js",
     "static/media/gifts.png": "/chul_megafon/static/media/gifts.a9d1bdd9c3d891149e51.png",
     "static/media/one_gift.png": "/chul_megafon/static/media/one_gift.acec5ff6651878cb75cc.png",
@@ -12,14 +12,14 @@
     "static/media/icon_six_years.svg": "/chul_megafon/static/media/icon_six_years.66107442c526afe9d6dcf6507786ea0b.svg",
     "index.html": "/chul_megafon/index.html",
     "static/media/location.svg": "/chul_megafon/static/media/location.0767e7b0eba3e5c99280.svg",
-    "static/media/arrow-down.svg": "/chul_megafon/static/media/arrow-down.2bbce6e9dab9598b3bf0.svg",
+    "static/media/arrow-down.svg": "/chul_megafon/static/media/arrow-down.ad54618ccb10e3d371c5.svg",
     "static/media/triangle.svg": "/chul_megafon/static/media/triangle.1a04bb9ccd39d55c0c7d.svg",
-    "main.64e5cef8.css.map": "/chul_megafon/static/css/main.64e5cef8.css.map",
-    "main.b5cb0c88.js.map": "/chul_megafon/static/js/main.b5cb0c88.js.map",
+    "main.f16d5830.css.map": "/chul_megafon/static/css/main.f16d5830.css.map",
+    "main.d97e7e03.js.map": "/chul_megafon/static/js/main.d97e7e03.js.map",
     "988.6f60c2b6.chunk.js.map": "/chul_megafon/static/js/988.6f60c2b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64e5cef8.css",
-    "static/js/main.b5cb0c88.js"
+    "static/css/main.f16d5830.css",
+    "static/js/main.d97e7e03.js"
   ]
 }
