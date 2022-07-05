@@ -1,5 +1,5 @@
 import "./Dropdown.scss";
-import { useCheck } from "../../hooks/useCheck";
+import { useCheck } from "../../hooks/useCheck.jsx";
 
 export const Dropdown = ({ text, items }) => {
     const { classIsOpen, check } = useCheck();

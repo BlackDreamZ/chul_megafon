@@ -5,11 +5,11 @@ import Footer from './components/sections/Footer/Footer.jsx';
 
 function App() {
   return (
-    <div className="megafon-application">
+    <>
       <Header />
       <Main />
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -1,13 +1,12 @@
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export const useCheck = () => {
-    const [isOpen, setIsOpen] = useState(true);
-    const classIsOpen = isOpen ? 'Dropdown__list_open' : 'Dropdown__list_close'
+    const [isOpen, setIsOpen] = useState(false, true);
+    const classIsOpen = isOpen ? 'Dropdown__list_open' : 'Dropdown__list_close';
 
     const check = () => {
         const width = window.innerWidth;
-        if (width < 767) {
+        if (width <= 999) {
             setIsOpen(!isOpen);
         } else {
             setIsOpen(true);
