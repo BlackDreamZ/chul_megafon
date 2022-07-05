@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/chul_megafon/static/css/main.64e5cef8.css",
+    "main.js": "/chul_megafon/static/js/main.fd127fb7.js",
+    "static/js/988.6f60c2b6.chunk.js": "/chul_megafon/static/js/988.6f60c2b6.chunk.js",
+    "static/media/gifts.png": "/chul_megafon/static/media/gifts.a9d1bdd9c3d891149e51.png",
+    "static/media/one_gift.png": "/chul_megafon/static/media/one_gift.acec5ff6651878cb75cc.png",
+    "static/media/megafon_logo.svg": "/chul_megafon/static/media/megafon_logo.96981fae9d515db88750a742df3b17a4.svg",
+    "static/media/icon_message.svg": "/chul_megafon/static/media/icon_message.540bdb0c87ecab39fc479717b34b2932.svg",
+    "static/media/key.svg": "/chul_megafon/static/media/key.d11121bf1b934d94c4b23c842fc157bc.svg",
+    "static/media/magnifier.svg": "/chul_megafon/static/media/magnifier.1d647a2616b525177e812c8a65ed6776.svg",
+    "static/media/icon_six_years.svg": "/chul_megafon/static/media/icon_six_years.66107442c526afe9d6dcf6507786ea0b.svg",
+    "index.html": "/chul_megafon/index.html",
+    "static/media/location.svg": "/chul_megafon/static/media/location.0767e7b0eba3e5c99280.svg",
+    "static/media/arrow-down.svg": "/chul_megafon/static/media/arrow-down.2bbce6e9dab9598b3bf0.svg",
+    "static/media/triangle.svg": "/chul_megafon/static/media/triangle.1a04bb9ccd39d55c0c7d.svg",
+    "main.64e5cef8.css.map": "/chul_megafon/static/css/main.64e5cef8.css.map",
+    "main.fd127fb7.js.map": "/chul_megafon/static/js/main.fd127fb7.js.map",
+    "988.6f60c2b6.chunk.js.map": "/chul_megafon/static/js/988.6f60c2b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64e5cef8.css",
+    "static/js/main.fd127fb7.js"
+  ]
+}
