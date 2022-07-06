@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chul_megafon/static/css/main.455f7ff6.css",
+    "main.css": "/chul_megafon/static/css/main.c3fdcff7.css",
     "main.js": "/chul_megafon/static/js/main.38c58e66.js",
     "static/js/988.6f60c2b6.chunk.js": "/chul_megafon/static/js/988.6f60c2b6.chunk.js",
     "static/media/gifts.png": "/chul_megafon/static/media/gifts.a9d1bdd9c3d891149e51.png",
@@ -14,12 +14,12 @@
     "static/media/location.svg": "/chul_megafon/static/media/location.3a739322f07a6ec4f47e.svg",
     "static/media/arrow-down.svg": "/chul_megafon/static/media/arrow-down.ad54618ccb10e3d371c5.svg",
     "static/media/triangle.svg": "/chul_megafon/static/media/triangle.68fa5d9521e4ff55d8eb.svg",
-    "main.455f7ff6.css.map": "/chul_megafon/static/css/main.455f7ff6.css.map",
+    "main.c3fdcff7.css.map": "/chul_megafon/static/css/main.c3fdcff7.css.map",
     "main.38c58e66.js.map": "/chul_megafon/static/js/main.38c58e66.js.map",
     "988.6f60c2b6.chunk.js.map": "/chul_megafon/static/js/988.6f60c2b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.455f7ff6.css",
+    "static/css/main.c3fdcff7.css",
     "static/js/main.38c58e66.js"
   ]
 }
