@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/chul_megafon/static/css/main.17296cc5.css",
-    "main.js": "/chul_megafon/static/js/main.1e57c422.js",
+    "main.css": "/chul_megafon/static/css/main.455f7ff6.css",
+    "main.js": "/chul_megafon/static/js/main.38c58e66.js",
     "static/js/988.6f60c2b6.chunk.js": "/chul_megafon/static/js/988.6f60c2b6.chunk.js",
     "static/media/gifts.png": "/chul_megafon/static/media/gifts.a9d1bdd9c3d891149e51.png",
     "static/media/one_gift.png": "/chul_megafon/static/media/one_gift.acec5ff6651878cb75cc.png",
-    "static/media/megafon_logo.svg": "/chul_megafon/static/media/megafon_logo.e5ed9eb85fd675e531f1383575856db6.svg",
+    "static/media/megafon_logo.svg": "/chul_megafon/static/media/megafon_logo.96981fae9d515db88750a742df3b17a4.svg",
     "static/media/icon_message.svg": "/chul_megafon/static/media/icon_message.e7b854331414ebb32d8b16ec1681939d.svg",
     "static/media/key.svg": "/chul_megafon/static/media/key.d11121bf1b934d94c4b23c842fc157bc.svg",
     "static/media/magnifier.svg": "/chul_megafon/static/media/magnifier.1d647a2616b525177e812c8a65ed6776.svg",
@@ -14,12 +14,12 @@
     "static/media/location.svg": "/chul_megafon/static/media/location.3a739322f07a6ec4f47e.svg",
     "static/media/arrow-down.svg": "/chul_megafon/static/media/arrow-down.ad54618ccb10e3d371c5.svg",
     "static/media/triangle.svg": "/chul_megafon/static/media/triangle.68fa5d9521e4ff55d8eb.svg",
-    "main.17296cc5.css.map": "/chul_megafon/static/css/main.17296cc5.css.map",
-    "main.1e57c422.js.map": "/chul_megafon/static/js/main.1e57c422.js.map",
+    "main.455f7ff6.css.map": "/chul_megafon/static/css/main.455f7ff6.css.map",
+    "main.38c58e66.js.map": "/chul_megafon/static/js/main.38c58e66.js.map",
     "988.6f60c2b6.chunk.js.map": "/chul_megafon/static/js/988.6f60c2b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17296cc5.css",
-    "static/js/main.1e57c422.js"
+    "static/css/main.455f7ff6.css",
+    "static/js/main.38c58e66.js"
   ]
 }
