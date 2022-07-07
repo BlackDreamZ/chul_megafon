@@ -15,7 +15,7 @@ const Main = () => {
                 <form className="container__form">
                     <div className="container__form-field">
                         <label className="container__form-label">Ваш номер телефона</label>
-                        <input placeholder="+7 (____) ___ - __ - __" type="tel" id="tel" name="tel" required minlength="10" maxlength="10"></input>
+                        <input placeholder="+7 (____) ___ - __ - __" type="tel" id="tel" name="tel" required minLength="10" maxLength="10"></input>
                     </div>
                     <div className="container__form-field">
                         <label className="container__form-label">Введите e-mail, который связан с этим номером</label>
