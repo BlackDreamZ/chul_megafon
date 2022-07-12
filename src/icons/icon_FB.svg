@@ -1,7 +1,7 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Logo bubble/24/FB" opacity="0.245722">
 <g id="asset (5)">
-<path id="Shape" fillRule="evenodd" clipRule="evenodd" d="M0 12C0 18.64 5.36 24 12 24C18.64 24 24 18.64 24 12C24 5.36 18.64 0 12 0C5.36 0 0 5.36 0 12ZM13 18.52H10.32H10.28V12H8.92V9.76H10.28V8.4C10.28 6.56 11.04 5.48 13.2 5.48H15V7.72H13.88C13.04 7.72 13 8.04 13 8.64V9.76H15.04L14.8 12H13V18.52Z" fill="#333333"/>
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 18.64 5.36 24 12 24C18.64 24 24 18.64 24 12C24 5.36 18.64 0 12 0C5.36 0 0 5.36 0 12ZM13 18.52H10.32H10.28V12H8.92V9.76H10.28V8.4C10.28 6.56 11.04 5.48 13.2 5.48H15V7.72H13.88C13.04 7.72 13 8.04 13 8.64V9.76H15.04L14.8 12H13V18.52Z" fill="#333333"/>
 </g>
 </g>
 </svg>

@@ -5,10 +5,10 @@ import one_gift from '../../../img/one_gift.png';
 const Main = () => {
     return (
         <section className='main'>
-            <div className="container">
+            <div className="main__container container">
                 <div className="container__title">
-                    <h2>Давайте сверим <br />данные!</h2>
-                    <p>Так ваши подарки обязательно вас найдут и придут вовремя</p>
+                    <h2 className="container__offer">Давайте сверим <br />данные!</h2>
+                    <p className="container__paragraph">Так ваши подарки обязательно вас найдут и придут вовремя</p>
                 </div>
                 <img className='container__gifts' src={gifts} alt='gifts'></img>
                 <img className='container__one-gift' src={one_gift} alt='gifts'></img>
@@ -21,8 +21,8 @@ const Main = () => {
                         <label className="container__form-label">Введите e-mail, который связан с этим номером</label>
                         <input placeholder="Example@gmail.com" type="email" id="email" name="email" required></input>
                     </div>
-                    <p>Нажимая на кнопку, я принимаю <a href="11">Политику конфиденциальности</a> и соглашаюсь получать сообщения.</p>
-                    <button>Теперь всё верно</button>
+                    <p className="form__paragraph">Нажимая на кнопку, я принимаю <a href="11">Политику конфиденциальности</a> и соглашаюсь получать сообщения.</p>
+                    <button className="button__paragraph">Теперь всё верно</button>
                 </form>
             </div>
         </section>

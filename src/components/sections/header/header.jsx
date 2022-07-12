@@ -3,21 +3,12 @@ import logo from "../../../icons/megafon_logo.svg";
 import magnifier from "../../../icons/magnifier.svg";
 import key from "../../../icons/key.svg";
 import navbar from "../../../img/navbar.png";
+import navlock from "./head.jsx";
 
 const Header = () => {
     return (
         <header className="megafon__header">
-            <script defer>(function() {
-                window.onload = () => {
-                    let header__burger = document.querySelector('.open__navbar');
-                    let header__menu = document.querySelector('.navbar');
-                    let body = document.querySelector('body');
-                    header__burger.addEventListener('click', (e) => {
-                        header__menu.classList.toggle('active');
-                        body.classList.toggle('lock');
-                    })
-                }
-            })();</script>
+            <script defer src={navlock} />
             <div className="megafon__header-top">
                 <div className="megafon__header-top-left">
                     <a href="1"><img src={logo} alt='Megafon' /></a>
@@ -37,30 +28,29 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="megafon__header-mobile">
-                    <img src={magnifier} alt='magnifier' />
+                    <img className="megafon__header-mobile-img" src={magnifier} alt='magnifier' />
                     <div className="lk-and-navbar">
-                        <img src={key} alt='key' />
-                        <img className="open__navbar" src={navbar} alt='navbar' />
+                        <img className="lk-and-navbar__image" src={key} alt='key' />
+                        <img className="lk-and-navbar__image open__navbar" src={navbar} alt='navbar' />
                     </div>
-
                 </div>
             </div>
             <div className="megafon__header-bottom">
                 <div className="megafon__header-bottom-left">
-                    <ul>
-                        <li><a className='toggle' href="7">Технологии</a></li>
-                        <li><a className='toggle' href="8">Бизнес-задачи</a></li>
-                        <li><a className='toggle' href="9">Связь и интернет</a></li>
-                        <li><a href="4">Акции</a></li>
-                        <li><a href="5">Поддержка</a></li>
+                    <ul className="megafon__header-list-ul">
+                        <li className="megafon__header-list-li"><a className='megafon__header-list-a toggle' href="7">Технологии</a></li>
+                        <li className="megafon__header-list-li"><a className='megafon__header-list-a toggle' href="8">Бизнес-задачи</a></li>
+                        <li className="megafon__header-list-li"><a className='megafon__header-list-a toggle' href="9">Связь и интернет</a></li>
+                        <li className="megafon__header-list-li"><a className="megafon__header-list-a" href="4">Акции</a></li>
+                        <li className="megafon__header-list-li"><a className="megafon__header-list-a" href="5">Поддержка</a></li>
                     </ul>
                 </div>
                 <div className="megafon__header-bottom-right">
-                    <a href="6"><img src={magnifier} alt='magnifier' /></a>
+                    <a className="megafon__header-bottom-right-a" href="6"><img className="megafon__header-bottom-right-image" src={magnifier} alt='magnifier' /></a>
                     <hr />
-                    <a href="7" className="cabinet">
-                        <img src={key} alt='key' />
-                        <a className='toggle' href="10">Связь и интернет</a>
+                    <a className="megafon__header-bottom-right-a cabinet" href="7">
+                        <img className="megafon__header-bottom-right-image" src={key} alt='key' />
+                        <a className='megafon__header-bottom-right-a toggle' href="10">Связь и интернет</a>
                     </a>
                 </div>
             </div>
