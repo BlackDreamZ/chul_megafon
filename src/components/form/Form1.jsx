@@ -58,7 +58,7 @@ const Form = props => {
                     {errors?.email && <div style={{ height: 20 }}><p style={{ color: 'red' }}>{errors?.email?.message || 'Неправильно введён номер телефона!'}</p></div>}
                 </div>
                 <p className="form__paragraph">Нажимая на кнопку, я принимаю <a href="11">Политику конфиденциальности</a> и соглашаюсь получать сообщения.</p>
-                <button>Теперь всё верно</button>
+                <button className="form__submit">Теперь всё верно</button>
             </form>
             }
             {
